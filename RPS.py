@@ -8,9 +8,11 @@ def game():
     global computerscore
 #Brings the values yourscore and computerscore into the function. 
     player = input("Enter your choice (rock/paper/scissors):")
+     #Allows the player to put input and informs them of their choices.
     while (player != "rock" and player != "paper" and player != "scissors"):
         print(player)
         player = input("Invalid Input. Enter your choice (rock/paper/scissors): ")
+         #If input not rock, paper, or scissors, tells you the value is invalid until you put in a valid value
     computer = random.randint(0, 2)
     if (computer == 0):
         computer = "rock"
