@@ -6,7 +6,7 @@ computerscore = 0
 def game():
     global yourscore
     global computerscore
-#Bring
+#Brings the values yourscore and computerscore into the function. 
     player = input("Enter your choice (rock/paper/scissors):")
     while (player != "rock" and player != "paper" and player != "scissors"):
         print(player)
@@ -18,7 +18,7 @@ def game():
         computer = "paper"
     elif (computer == 2):
         computer = "scissors"
-
+ #Assigns a number to a position and randomly picks from those numbers. 
     if (player == computer):
         print("Draw!")
         print("Your Score:", yourscore, "Computer Score:", computerscore)
