@@ -56,7 +56,7 @@ def game():
 
     input("Press Enter to play again")
     
-    
+     #Prints your choice, the computer's choice, states Thank you for playing, and gives you the option to play again. 
 while True:
     game() 
     #loops the function so that it can be played again
