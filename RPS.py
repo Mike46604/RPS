@@ -53,7 +53,8 @@ def game():
     print("Your choice: " + player + "\nComputer choice: " + computer + "\nThank you for playing!")
 
     input("Press Enter to play again")
-
-
+    
+    
 while True:
-    game()
+    game() 
+    #loops the function so that it can be played again
